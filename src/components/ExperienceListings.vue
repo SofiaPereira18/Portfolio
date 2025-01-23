@@ -9,7 +9,7 @@ const state = reactive({
 
 onMounted(async () => {
     try {
-        const response = await axios.get('/api/experience.json');
+        const response = await axios.get('/experience.json');
         state.experience = response.data.experience;
     } catch (error) {
         console.log("Erro fetching experience", error);

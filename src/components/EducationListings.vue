@@ -11,7 +11,7 @@ const state = reactive({
 
 onMounted(async () => {
     try {
-        const response = await axios.get('/api/education.json');
+        const response = await axios.get('/education.json');
         state.education = response.data.education;
     } catch (error) {
         console.error('Error fetching educations', error);
