@@ -1,0 +1,13 @@
+{
+    "education": [
+        {
+            "id": 1,
+            "type": "Degree",
+            "subject": "Computer Engineering",
+            "university": "Faculty of Sciences of the University of Lisbon",
+            "description": "",
+            "duration": "2020 - Present",
+            "languages": ["Java", "Javascript", "Angular", "HTML", "CSS", "React", "Haskell", "SQL", "C", "Python"]
+        }
+    ]
+}

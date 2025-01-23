@@ -1,28 +1,14 @@
 <script setup>
-  import { RouterLink, useRoute } from 'vue-router';
-  
+import NavLink from './NavLink.vue';
+
 </script>
 
 <template>
-    <!-- About -->
-    <RouterLink
-    to="/"
-    >
-    <span>About</span>    
-    </RouterLink>
+  <nav 
+    class="bg-gray-100 border-b border-gray-300 px-6 py-4 
+    flex justify-end space-x-8 pr-[200px]">
 
-    <!-- Education -->
-   <RouterLink
-    to="/"
-    >
-    <span>Education</span>    
-    </RouterLink>
-
-   <!-- Work -->
-   <RouterLink
-    to="/"
-    >
-    <span>Work</span>    
-    </RouterLink>
-
+    <NavLink to="/">About</NavLink>
+    <NavLink to="/experience">Experience</NavLink>
+  </nav>
 </template>

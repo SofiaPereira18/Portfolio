@@ -1,0 +1,22 @@
+{
+    "experience": [
+        {
+            "company": "Ruption",
+            "title": "OutSystems Developer",
+            "location": "Angra do Heroísmo",
+            "description": "During this internship I made a copy of the PCDiga shopping website, for training.",
+            "duration": "August 2024",
+            "languages": ["OutSystems", "Javascript"],
+            "id": 1
+        },
+        {
+            "company": "Hospital de Santo Espírito da Ilha Terceira",
+            "title": "OutSystems Developer",
+            "location": "Angra do Heroísmo",
+            "description": "During this internship I created a website whose objective was to use when there were emergency situations. It uses Vodafone's API to send SMS to employees who are in ",
+            "duration": "August 2025",
+            "languages": ["OutSystems", "Javascript"],
+            "id": 2
+        }
+    ]
+}

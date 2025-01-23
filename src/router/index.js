@@ -1,6 +1,7 @@
-import HomeView from "@/views/HomeView.vue";
-import EducationView from "@/views/EducationView.vue";
 import { createRouter, createWebHistory } from "vue-router";
+
+import HomeView from "@/views/HomeView.vue";
+import ExperienceView from "@/views/ExperienceView.vue";
 
 
 const router = createRouter({
@@ -10,6 +11,11 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: HomeView,
+        },
+        {
+            path: '/experience',
+            name: 'experience',
+            component: ExperienceView,
         },
     ],
 });
